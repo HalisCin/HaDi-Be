@@ -17,15 +17,19 @@ class _LoginScreenState extends State<LoginScreen> {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        appBar: AppBar(title: const Text("Login Form"),backgroundColor: Colors.redAccent,),
+        appBar: AppBar(title: const Text("Login Page"),backgroundColor: Colors.redAccent,),
         body: Container(
           child: ListView(children: <Widget>[
-            const Padding(
-              padding: EdgeInsets.all(20.0),
-              child: Icon(
-                Icons.movie_creation,
-                size: 250,
-                color: Colors.black87,
+            Padding(
+              padding: const EdgeInsets.all(20.0),
+              child: ElevatedButton.icon(
+                onPressed: null,
+                icon: const Icon(
+                  Icons.movie_creation,
+                  size: 250,
+                  color: Colors.black87,
+                ),
+                label: Text("HaDi Be!"),
 
               ),
             ),
