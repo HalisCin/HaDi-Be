@@ -52,7 +52,7 @@ class _LoginScreenState extends State<LoginScreen> {
                 obscureText: true,
                 keyboardType: TextInputType.text,
                 decoration: const InputDecoration(
-                  labelText: 'Password',
+                  labelText: 'Enter Password',
                   hintText: '',
                   icon: Icon(Icons.password_outlined),
                 ),
